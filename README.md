@@ -6,6 +6,13 @@ A Vue directive that will insert an image from a preloader into the dom.
 
 ## Usage
 
+```
+var fs = require('fs');
+var Vue = require('vue');
+Vue.use(require('vue-image'), {
+          assetPath: '',
+          preloader: this.preloader
+        });```
 ```<img v-image="hero.image"/>```
 
 ### Options

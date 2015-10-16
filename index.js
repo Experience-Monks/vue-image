@@ -119,7 +119,7 @@ exports.install = function (Vue, opts) {
     }
   };
 
-  dir.init(opts.preloader, opts.assetPath);
+  dir.init(opts.preloader, (opts.assetPath||""));
 
   Vue.directive('content', dir);
 
