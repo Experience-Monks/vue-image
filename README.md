@@ -24,7 +24,7 @@ Clone the image returned fromm `preloader.getContent(<img path>)`. Default is `t
 
 
 ####replace####
-```<div v-content="{img: hero.image, replace: false}"></div>```
+```<div v-content="{img: hero.image, replace: true}"></div>```
 
 Replace the element with the image specified in the directive. If the directive element is an image than the default is `true` and probably should always be `true`. For any other element the default is `false` and the image is inserted as a child of that element.
 
