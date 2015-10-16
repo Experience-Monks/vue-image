@@ -1,0 +1,32 @@
+{
+  "name": "vue-image",
+  "version": "1.0.0",
+  "description": "A Vue directive that will insert an image from a preloader into the dom.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Brendan Neufeld",
+    "email": "brendanjneufeld@gmail.com",
+    "url": "https://github.com/BrenanNeufeld"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "vuejs,",
+    "vue,",
+    "directive,",
+    "preloader,",
+    "image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BrenanNeufeld/vue-image.git"
+  },
+  "homepage": "https://github.com/BrenanNeufeld/vue-image",
+  "bugs": {
+    "url": "https://github.com/BrenanNeufeld/vue-image/issues"
+  }
+}
