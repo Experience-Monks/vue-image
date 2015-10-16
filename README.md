@@ -6,6 +6,14 @@ A Vue directive that will insert an image from a preloader into the dom.
 
 ## Usage
 
+```<img v-image="hero.image"/>```
+
+### Options
+```clone``` ```<img v-content="{img: hero.image, clone: false}"/>``` Clone the image returned fromm `preloader.getContent(<img path>)`. Default is `true`. If set to false the same image for every directive that is returned from `preloader.getContent(<img path>)` is used and only one instance of the image can be present in the dom at one time.
+
+
+```replace``` ```<div v-content="{img: hero.image, replace: false}"></div>``` Replace the element with the image specified in the directive. If the directive element is an image than the default is `true` and probably should always be `true`. For any other element the default is `false` and the image is inserted as a child of that element.
+
 [![NPM](https://nodei.co/npm/vue-image.png)](https://www.npmjs.com/package/vue-image)
 
 ## License
